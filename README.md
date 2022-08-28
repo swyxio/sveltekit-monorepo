@@ -9,6 +9,8 @@ This is my starter for a monorepo with 2022 tech:
 
 ## Demo
 
+Proof that this repo deploys to Netlify properly (which was way harder than it should be...)
+
 https://sveltekit-monorepo-ui.netlify.app/
 
 ![image](https://user-images.githubusercontent.com/6764957/187062486-4642fa0a-27b8-4275-a7e4-ea39a0e0459d.png)
