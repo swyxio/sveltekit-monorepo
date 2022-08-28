@@ -7,6 +7,13 @@ This is my starter for a monorepo with 2022 tech:
 - [Histoire](https://histoire.dev/)
 - [pnpm](https://pnpm.io) - `brew install pnpm`
 
+## Demo
+
+https://sveltekit-monorepo-ui.netlify.app/
+
+![image](https://user-images.githubusercontent.com/6764957/187062486-4642fa0a-27b8-4275-a7e4-ea39a0e0459d.png)
+
+
 ## What's inside?
 
 ### Apps and Packages
