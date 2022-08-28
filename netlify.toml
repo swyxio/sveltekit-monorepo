@@ -1,10 +1,16 @@
 [build]
   # base = "project/"
 
-  publish = ".dist"
+  publish = "apps/dashboard/build"
   # command = "pnpm run build || ( npm install pnpm && pnpm run build )"
 
-  command = "npx pnpm i --store=node_modules/.pnpm-store --no-frozen-lockfile && npx pnpm build" 
-  
+  command = "npx pnpm i --store=node_modules/.pnpm-store --no-frozen-lockfile && npx pnpm --filter dashboard build" 
+
+# https://docs.netlify.com/configure-builds/file-based-configuration/#functions
+[functions]
+  directory = "apps/dashboard/.netlify"
+  node_bundler = "esbuild"
+  # old - publish = "apps/dashboard/build"
+
 [build.environment]
   NPM_FLAGS = "--version" # https://github.com/moudev/differenzo/pull/6/files
