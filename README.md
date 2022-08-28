@@ -46,6 +46,20 @@ cd my-turborepo
 pnpm run dev
 ```
 
+### Installing packages
+
+To install a `library` package in the `ui` workspace with pnpm:
+
+```bash
+pnpm add --filter ui library
+```
+
+### Run histoire
+
+```bash
+pnpm --filter ui story:dev
+```
+
 ### Remote Caching
 
 Turborepo can use a technique known as [Remote Caching](https://turborepo.org/docs/core-concepts/remote-caching) to share cache artifacts across machines, enabling you to share build caches with your team and CI/CD pipelines.

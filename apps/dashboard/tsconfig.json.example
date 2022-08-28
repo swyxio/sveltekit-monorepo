@@ -1,0 +1,6 @@
+{
+  "readme": "this is just here for you to edit in case you need typescript",
+  "extends": "tsconfig/sveltejs.json",
+  "include": ["**/*.ts", "**/*.svelte"],
+  "exclude": ["node_modules"]
+}
