@@ -99,3 +99,4 @@ Learn more about the power of Turborepo:
 ## Useful Links
 
 - https://www.seancdavis.com/posts/use-pnpm-with-netlify/
+   - but results in `EEXIST: file already exists, mkdir '/dev/null'` error
