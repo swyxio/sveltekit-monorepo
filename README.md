@@ -85,7 +85,7 @@ Next, you can link your Turborepo to your Remote Cache by running the following 
 pnpx turbo link
 ```
 
-## Useful Links
+## Turborepo Links
 
 Learn more about the power of Turborepo:
 
@@ -95,3 +95,7 @@ Learn more about the power of Turborepo:
 - [Scoped Tasks](https://turborepo.org/docs/core-concepts/scopes)
 - [Configuration Options](https://turborepo.org/docs/reference/configuration)
 - [CLI Usage](https://turborepo.org/docs/reference/command-line-reference)
+
+## Useful Links
+
+- https://www.seancdavis.com/posts/use-pnpm-with-netlify/
