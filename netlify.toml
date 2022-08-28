@@ -2,7 +2,9 @@
   # base = "project/"
 
   publish = ".dist"
-  command = "pnpm run build || ( npm install pnpm && pnpm run build )"
+  # command = "pnpm run build || ( npm install pnpm && pnpm run build )"
+
+  command = "npx pnpm i --store=node_modules/.pnpm-store --no-frozen-lockfile && npx pnpm build" 
   
 [build.environment]
-    NPM_FLAGS="--prefix=/dev/null"
+  NPM_FLAGS = "--version" # https://github.com/moudev/differenzo/pull/6/files
