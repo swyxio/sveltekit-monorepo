@@ -8,7 +8,7 @@
 
 # https://docs.netlify.com/configure-builds/file-based-configuration/#functions
 [functions]
-  directory = "apps/dashboard/.netlify"
+  directory = "apps/dashboard/.netlify/functions-internal"
   node_bundler = "esbuild"
   # old - publish = "apps/dashboard/build"
 
