@@ -12,6 +12,7 @@
 
 <p class="highlight">
   This button below comes from a UI library!
+  <br />
   <Button />
 </p>
 

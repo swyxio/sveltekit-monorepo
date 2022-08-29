@@ -13,7 +13,8 @@ Proof that this repo deploys to Netlify properly (which was way harder than it s
 
 https://sveltekit-monorepo-ui.netlify.app/
 
-![image](https://user-images.githubusercontent.com/6764957/187062486-4642fa0a-27b8-4275-a7e4-ea39a0e0459d.png)
+![image](https://user-images.githubusercontent.com/6764957/187062740-f908ebd6-66d2-43c0-a84c-0ea5b330e153.png)
+
 
 
 ## What's inside?
