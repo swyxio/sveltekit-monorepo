@@ -108,6 +108,10 @@ Learn more about the power of Turborepo:
 
 ## Useful Links
 
-- https://www.seancdavis.com/posts/use-pnpm-with-netlify/
-   - but results in `EEXIST: file already exists, mkdir '/dev/null'` error
-- https://answers.netlify.com/t/using-pnpm-and-pnpm-workspaces/2759/19
+- using pnpm with netlify
+  - https://www.seancdavis.com/posts/use-pnpm-with-netlify/
+    - but results in `EEXIST: file already exists, mkdir '/dev/null'` error
+  - https://answers.netlify.com/t/using-pnpm-and-pnpm-workspaces/2759/19
+    - not so useful
+  - i think this is what solved it for me https://github.com/netlify/build/issues/1633
+- prior art: https://github.com/Brisklemonade/turbosvelte
